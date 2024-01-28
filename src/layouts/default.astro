@@ -1,0 +1,13 @@
+---
+import Blank from './blank.astro'
+---
+
+<Blank {...Astro.props}>
+    <header class="text-center">[Header]</header>
+
+    <main class="my-8">
+        <slot />
+    </main>
+
+    <footer class="text-center">[Footer]</footer>
+</Blank>

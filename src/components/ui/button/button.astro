@@ -1,0 +1,18 @@
+---
+import type { HTMLAttributes, HTMLTag, Polymorphic } from 'astro/types'
+import { buttonVariants } from './button'
+import { cn } from '@/utils/ui'
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> &
+    HTMLAttributes<'button'> & {
+        size?: 'sm' | 'md' | 'lg'
+        variant?: 'primary' | 'secondary' | 'soft' | 'ghost'
+        shape?: 'square' | 'rounded' | 'circle'
+    }
+
+const { as: Tag = 'button', class: cl, size = 'md', variant = 'primary', shape = 'square', ...props } = Astro.props
+---
+
+<Tag class:list={cn(buttonVariants({ size, variant, shape } as any), cl)} {...props}>
+    <slot />
+</Tag>

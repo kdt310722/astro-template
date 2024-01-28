@@ -1,0 +1,10 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html,
+body {
+    --at-apply: size-full overflow-x-hidden overflow-y-auto;
+}
+
+body {
+    --at-apply: antialiased font-sans tracking-tight leading-relaxed;
+}

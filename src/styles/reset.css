@@ -1,0 +1,26 @@
+@import '@unocss/reset/tailwind-compat.css';
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a,
+area,
+button,
+[role='button'],
+input,
+label,
+select,
+summary,
+textarea {
+    touch-action: manipulation;
+}
+
+html.dark {
+    color-scheme: dark;
+}
+
+body {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}

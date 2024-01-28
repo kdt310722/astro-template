@@ -1,0 +1,20 @@
+---
+import Button from '../components/ui/button/button.astro'
+import Default from '../layouts/default.astro'
+---
+
+<Default title="Index Page">
+    <div class="*fcc flex-col size-full space-y-4">
+        <div class="space-x-4">
+            <Button type="button" size="sm">SM | Primary | Square</Button>
+            <Button type="button" size="md" shape="rounded">MD | Primary | Rounded</Button>
+            <Button type="button" size="lg" shape="circle">LG | Primary | Circle</Button>
+        </div>
+
+        <div class="space-x-4">
+            <Button type="button" size="sm" variant="secondary">SM | Secondary | Square</Button>
+            <Button type="button" size="md" variant="secondary" shape="rounded">MD | Secondary | Rounded</Button>
+            <Button type="button" size="lg" variant="secondary" shape="circle">LG | Secondary | Circle</Button>
+        </div>
+    </div>
+</Default>
