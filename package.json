@@ -28,7 +28,7 @@
         "@unocss/reset": "^0.58.5",
         "astro": "^4.4.0",
         "astro-meta-tags": "^0.2.1",
-        "astro-seo": "^0.8.0",
+        "astro-seo": "^0.8.1",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.0",
         "eslint": "^8.56.0",
@@ -51,7 +51,7 @@
     },
     "simple-git-hooks": {
         "commit-msg": "npx --no -- commitlint --edit ${1}",
-        "pre-commit": "astro check && npx lint-staged"
+        "pre-commit": "npx astro check && npx lint-staged"
     },
     "lint-staged": {
         "*": "eslint --fix"
