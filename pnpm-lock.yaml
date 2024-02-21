@@ -25,7 +25,7 @@ devDependencies:
     version: 0.1.0(unocss@0.58.5)
   '@julr/vite-plugin-validate-env':
     specifier: ^1.1.1
-    version: 1.1.1(vite@5.1.3)(zod@3.22.4)
+    version: 1.1.1(vite@5.1.4)(zod@3.22.4)
   '@kdt310722/eslint-config':
     specifier: ^0.0.5
     version: 0.0.5(@vue/compiler-sfc@3.4.19)(eslint-plugin-import@2.29.1)(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3)
@@ -85,7 +85,7 @@ devDependencies:
     version: 5.3.3
   unocss:
     specifier: ^0.58.5
-    version: 0.58.5(postcss@8.4.35)(vite@5.1.3)
+    version: 0.58.5(postcss@8.4.35)(vite@5.1.4)
   unocss-preset-extra:
     specifier: ^0.5.3
     version: 0.5.3(unocss@0.58.5)
@@ -96,8 +96,8 @@ devDependencies:
     specifier: ^0.18.5
     version: 0.18.5(@vue/compiler-sfc@3.4.19)
   vite:
-    specifier: ^5.1.3
-    version: 5.1.3(@types/node@20.11.19)(lightningcss@1.23.0)
+    specifier: ^5.1.4
+    version: 5.1.4(@types/node@20.11.19)(lightningcss@1.23.0)
   zod:
     specifier: ^3.22.4
     version: 3.22.4
@@ -1140,10 +1140,10 @@ packages:
     peerDependencies:
       unocss: '>= 0.31.13 < 1'
     dependencies:
-      unocss: 0.58.5(postcss@8.4.35)(vite@5.1.3)
+      unocss: 0.58.5(postcss@8.4.35)(vite@5.1.4)
     dev: true
 
-  /@julr/vite-plugin-validate-env@1.1.1(vite@5.1.3)(zod@3.22.4):
+  /@julr/vite-plugin-validate-env@1.1.1(vite@5.1.4)(zod@3.22.4):
     resolution: {integrity: sha512-MiAvuLrolS6xkzG/B4ofOCFUzmOEnC32pvD5fn9g6b3SK4nVruGZp5PU/WG+F+hw9fhsw0ES13L7GVzAeDJaYA==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -1156,7 +1156,7 @@ packages:
       '@poppinss/cliui': 6.4.0
       '@poppinss/validator-lite': 1.0.3
       unconfig: 0.3.11
-      vite: 5.1.3(@types/node@20.11.19)(lightningcss@1.23.0)
+      vite: 5.1.4(@types/node@20.11.19)(lightningcss@1.23.0)
       zod: 3.22.4
     dev: true
 
@@ -1949,7 +1949,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@unocss/astro@0.58.5(vite@5.1.3):
+  /@unocss/astro@0.58.5(vite@5.1.4):
     resolution: {integrity: sha512-LtuVnj8oFAK9663OVhQO8KpdJFiOyyPsYfnOZlDCOFK3gHb/2WMrzdBwr1w8LoQF3bDedkFMKirVF7gWjyZiaw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
@@ -1959,8 +1959,8 @@ packages:
     dependencies:
       '@unocss/core': 0.58.5
       '@unocss/reset': 0.58.5
-      '@unocss/vite': 0.58.5(vite@5.1.3)
-      vite: 5.1.3(@types/node@20.11.19)(lightningcss@1.23.0)
+      '@unocss/vite': 0.58.5(vite@5.1.4)
+      vite: 5.1.4(@types/node@20.11.19)(lightningcss@1.23.0)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2158,7 +2158,7 @@ packages:
       '@unocss/core': 0.58.5
     dev: true
 
-  /@unocss/vite@0.58.5(vite@5.1.3):
+  /@unocss/vite@0.58.5(vite@5.1.4):
     resolution: {integrity: sha512-p4o1XNX1rvjmoUqSSdua8XyWNg/d+YUChDd2L/xEty+6j2qv0wUaohs3UQ87vWlv632/UmgdX+2MbrgtqthCtw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
@@ -2173,7 +2173,7 @@ packages:
       chokidar: 3.6.0
       fast-glob: 3.3.2
       magic-string: 0.30.7
-      vite: 5.1.3(@types/node@20.11.19)(lightningcss@1.23.0)
+      vite: 5.1.4(@types/node@20.11.19)(lightningcss@1.23.0)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2663,8 +2663,8 @@ packages:
       tsconfck: 3.0.2(typescript@5.3.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.1.3(@types/node@20.11.19)(lightningcss@1.23.0)
-      vitefu: 0.2.5(vite@5.1.3)
+      vite: 5.1.4(@types/node@20.11.19)(lightningcss@1.23.0)
+      vitefu: 0.2.5(vite@5.1.4)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -9129,7 +9129,7 @@ packages:
     peerDependencies:
       unocss: '>= 0.31.0 < 1'
     dependencies:
-      unocss: 0.58.5(postcss@8.4.35)(vite@5.1.3)
+      unocss: 0.58.5(postcss@8.4.35)(vite@5.1.4)
     dev: true
 
   /unocss-transformer-alias@0.0.7:
@@ -9138,7 +9138,7 @@ packages:
       '@unocss/core': 0.58.5
     dev: true
 
-  /unocss@0.58.5(postcss@8.4.35)(vite@5.1.3):
+  /unocss@0.58.5(postcss@8.4.35)(vite@5.1.4):
     resolution: {integrity: sha512-0g4P6jLgRRNnhscxw7nQ9RHGrKJ1UPPiHPet+YT3TXUcmy4mTiYgo9+kGQf5bjyrzsELJ10cT6Qz2y6g9Tls4g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -9150,7 +9150,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      '@unocss/astro': 0.58.5(vite@5.1.3)
+      '@unocss/astro': 0.58.5(vite@5.1.4)
       '@unocss/cli': 0.58.5
       '@unocss/core': 0.58.5
       '@unocss/extractor-arbitrary-variants': 0.58.5
@@ -9169,8 +9169,8 @@ packages:
       '@unocss/transformer-compile-class': 0.58.5
       '@unocss/transformer-directives': 0.58.5
       '@unocss/transformer-variant-group': 0.58.5
-      '@unocss/vite': 0.58.5(vite@5.1.3)
-      vite: 5.1.3(@types/node@20.11.19)(lightningcss@1.23.0)
+      '@unocss/vite': 0.58.5(vite@5.1.4)
+      vite: 5.1.4(@types/node@20.11.19)(lightningcss@1.23.0)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -9321,8 +9321,8 @@ packages:
       vfile-message: 4.0.2
     dev: true
 
-  /vite@5.1.3(@types/node@20.11.19)(lightningcss@1.23.0):
-    resolution: {integrity: sha512-UfmUD36DKkqhi/F75RrxvPpry+9+tTkrXfMNZD+SboZqBCMsxKtO52XeGzzuh7ioz+Eo/SYDBbdb0Z7vgcDJew==}
+  /vite@5.1.4(@types/node@20.11.19)(lightningcss@1.23.0):
+    resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -9358,7 +9358,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@0.2.5(vite@5.1.3):
+  /vitefu@0.2.5(vite@5.1.4):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -9366,7 +9366,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.3(@types/node@20.11.19)(lightningcss@1.23.0)
+      vite: 5.1.4(@types/node@20.11.19)(lightningcss@1.23.0)
     dev: true
 
   /volar-service-css@0.0.30(@volar/language-service@2.0.4):
