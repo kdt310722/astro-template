@@ -22,11 +22,11 @@
         "@julr/vite-plugin-validate-env": "^1.1.1",
         "@kdt310722/eslint-config": "^0.0.5",
         "@kdt310722/tsconfig": "^1.0.0",
-        "@kdt310722/utils": "^0.0.5",
+        "@kdt310722/utils": "^0.0.6",
         "@types/node": "^20.11.24",
         "@unocss/preset-wind": "^0.58.5",
         "@unocss/reset": "^0.58.5",
-        "astro": "^4.4.10",
+        "astro": "^4.4.11",
         "astro-meta-tags": "^0.2.1",
         "astro-seo": "^0.8.3",
         "class-variance-authority": "^0.7.0",
@@ -43,7 +43,7 @@
         "unocss-preset-extra": "^0.5.3",
         "unocss-transformer-alias": "^0.0.7",
         "unplugin-icons": "^0.18.5",
-        "vite": "^5.1.4",
+        "vite": "^5.1.5",
         "zod": "^3.22.4"
     },
     "commitlint": {
