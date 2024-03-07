@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^19.0.3
     version: 19.0.3
   '@iconify/json':
-    specifier: ^2.2.189
-    version: 2.2.189
+    specifier: ^2.2.190
+    version: 2.2.190
   '@julr/unocss-preset-forms':
     specifier: ^0.1.0
     version: 0.1.0(unocss@0.58.5)
@@ -45,11 +45,11 @@ devDependencies:
     specifier: ^0.58.5
     version: 0.58.5
   astro:
-    specifier: ^4.4.13
-    version: 4.4.13(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2)
+    specifier: ^4.4.14
+    version: 4.4.14(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2)
   astro-meta-tags:
     specifier: ^0.2.1
-    version: 0.2.1(astro@4.4.13)
+    version: 0.2.1(astro@4.4.14)
   astro-seo:
     specifier: ^0.8.3
     version: 0.8.3(prettier@3.2.5)(typescript@5.4.2)
@@ -1069,8 +1069,8 @@ packages:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     dev: true
 
-  /@iconify/json@2.2.189:
-    resolution: {integrity: sha512-q0DxpGQuQhtoNXELlHKbkxTSOjuzf/3Qaqq5uuJ/dM62XH1GUUxlXsgH/Moh/CEcs3evzWFp2mjIQifZmihQTA==}
+  /@iconify/json@2.2.190:
+    resolution: {integrity: sha512-ci0/3DQUoRNxuNC8s0rNke5JwsCzWuYfEl4BgOykx3EAWDWMvD8lCenrDiFa04mokzMwSF+jA6I1YjBRGWfyOw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
@@ -2580,12 +2580,12 @@ packages:
       - supports-color
     dev: true
 
-  /astro-meta-tags@0.2.1(astro@4.4.13):
+  /astro-meta-tags@0.2.1(astro@4.4.14):
     resolution: {integrity: sha512-IFAQG6Ymwke+53H5hcBFtdYyCpF2KEVpp5wA7Qrx8O2+4hUx3N9wE6Vy6QgRHH2Lkgv48PUN7t5fUDBpCMEbAA==}
     peerDependencies:
       astro: ^4.0.0
     dependencies:
-      astro: 4.4.13(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2)
+      astro: 4.4.14(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2)
     dev: true
 
   /astro-seo@0.8.3(prettier@3.2.5)(typescript@5.4.2):
@@ -2598,8 +2598,8 @@ packages:
       - typescript
     dev: true
 
-  /astro@4.4.13(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-kx2k2DJd9Os15zJBo8fK01/2F7/4wH6sAKmlBHlkGHIFm6CKSSzWCK/IWQ0DybNWtthK9A3HDZ4VYWv0BJDOBg==}
+  /astro@4.4.14(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-b8l8NyUP38sWDkCSx9PKTX8aISIXhEGCnsx5FugOTyMisYeeY2hwyaiUpL11WvNJafq28RY0RMO+HWBR6te6fA==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
