@@ -45,11 +45,11 @@ devDependencies:
     specifier: ^0.58.5
     version: 0.58.5
   astro:
-    specifier: ^4.4.14
-    version: 4.4.14(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2)
+    specifier: ^4.4.15
+    version: 4.4.15(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2)
   astro-meta-tags:
     specifier: ^0.2.1
-    version: 0.2.1(astro@4.4.14)
+    version: 0.2.1(astro@4.4.15)
   astro-seo:
     specifier: ^0.8.3
     version: 0.8.3(prettier@3.2.5)(typescript@5.4.2)
@@ -2580,12 +2580,12 @@ packages:
       - supports-color
     dev: true
 
-  /astro-meta-tags@0.2.1(astro@4.4.14):
+  /astro-meta-tags@0.2.1(astro@4.4.15):
     resolution: {integrity: sha512-IFAQG6Ymwke+53H5hcBFtdYyCpF2KEVpp5wA7Qrx8O2+4hUx3N9wE6Vy6QgRHH2Lkgv48PUN7t5fUDBpCMEbAA==}
     peerDependencies:
       astro: ^4.0.0
     dependencies:
-      astro: 4.4.14(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2)
+      astro: 4.4.15(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2)
     dev: true
 
   /astro-seo@0.8.3(prettier@3.2.5)(typescript@5.4.2):
@@ -2598,8 +2598,8 @@ packages:
       - typescript
     dev: true
 
-  /astro@4.4.14(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-b8l8NyUP38sWDkCSx9PKTX8aISIXhEGCnsx5FugOTyMisYeeY2hwyaiUpL11WvNJafq28RY0RMO+HWBR6te6fA==}
+  /astro@4.4.15(@types/node@20.11.25)(lightningcss@1.24.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-RTiAnlO8hDp6GqMVvaeJxyuCJhHNEho09lHshMNQBqgRabYPOJGW0HZZrbLRGNOqN9I14ivhZIunYGgAaGQpWw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
