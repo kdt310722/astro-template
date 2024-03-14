@@ -17,7 +17,7 @@
         "@astrojs/sitemap": "^3.1.1",
         "@commitlint/cli": "^19.1.0",
         "@commitlint/config-conventional": "^19.1.0",
-        "@iconify/json": "^2.2.191",
+        "@iconify/json": "^2.2.192",
         "@julr/unocss-preset-forms": "^0.1.0",
         "@julr/vite-plugin-validate-env": "^1.1.1",
         "@kdt310722/eslint-config": "^0.0.5",
